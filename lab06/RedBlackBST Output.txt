@@ -1,0 +1,80 @@
+mac@Users-MacBook-Pro ~/my mac/kumar algorithms/lab06 (master)
+$ g++ -o RedBlackBST RedBlackBST.cpp 
+mac@Users-MacBook-Pro ~/my mac/kumar algorithms/lab06 (master)
+$ ./RedBlackBST 
+Enter number of insertions: 100000
+
+Inserting 100000 elements...
+Insertion Time: 0.032262 seconds
+
+Inoder Traversal of Created Tree In Process...
+Inoder Traversal Time: 0.001700 seconds
+
+Level Order Traversal In Process...
+
+Level Traversal Time: 0.011233 seconds
+mac@Users-MacBook-Pro ~/my mac/kumar algorithms/lab06 (master)
+$ ./RedBlackBST 
+Enter number of insertions: 1000000
+
+Inserting 1000000 elements...
+Insertion Time: 0.345542 seconds
+
+Inoder Traversal of Created Tree In Process...
+Inoder Traversal Time: 0.014995 seconds
+
+Level Order Traversal In Process...
+
+Level Traversal Time: 0.111430 seconds
+mac@Users-MacBook-Pro ~/my mac/kumar algorithms/lab06 (master)
+$ ./RedBlackBST 
+Enter number of insertions: 2000000
+
+Inserting 2000000 elements...
+Insertion Time: 0.709857 seconds
+
+Inoder Traversal of Created Tree In Process...
+Inoder Traversal Time: 0.029870 seconds
+
+Level Order Traversal In Process...
+
+Level Traversal Time: 0.225452 seconds
+mac@Users-MacBook-Pro ~/my mac/kumar algorithms/lab06 (master)
+$ ./RedBlackBST 
+Enter number of insertions: 3000000
+
+Inserting 3000000 elements...
+Insertion Time: 1.083931 seconds
+
+Inoder Traversal of Created Tree In Process...
+Inoder Traversal Time: 0.049232 seconds
+
+Level Order Traversal In Process...
+
+Level Traversal Time: 0.340764 seconds
+mac@Users-MacBook-Pro ~/my mac/kumar algorithms/lab06 (master)
+$ ./RedBlackBST 
+Enter number of insertions: 10000000
+
+Inserting 10000000 elements...
+Insertion Time: 3.780678 seconds
+
+Inoder Traversal of Created Tree In Process...
+Inoder Traversal Time: 0.169444 seconds
+
+Level Order Traversal In Process...
+
+Level Traversal Time: 1.126354 seconds
+mac@Users-MacBook-Pro ~/my mac/kumar algorithms/lab06 (master)
+$ ./RedBlackBST 
+Enter number of insertions: 1000000000
+
+Inserting 1000000000 elements...
+Insertion Time: 473.872918 seconds
+
+Inoder Traversal of Created Tree In Process...
+Inoder Traversal Time: 58.810911 seconds
+
+Level Order Traversal In Process...
+
+Level Traversal Time: 737.888493 seconds

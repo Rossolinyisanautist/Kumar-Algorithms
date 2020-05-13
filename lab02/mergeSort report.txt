@@ -1,0 +1,320 @@
+$ ./mergeSort 
+Enter size of array:
+20
+Generating 20 random numbers...
+
+Generated array: 
+	[97 325 356 165 210 170 77 95 8 90 272 247 199 164 228 64 300 4 86 ]
+
+MergeSort started...
+
+Mid = 9
+Left part = [97 325 356 165 210 170 77 95 8  ]
+	Sorting left part...
+Mid = 4
+Left part = [97 325 356 165  ]
+	Sorting left part...
+Mid = 2
+Left part = [97 325  ]
+	Sorting left part...
+Mid = 1
+Left part = [97  ]
+	Sorting left part...
+Mid = 0
+Left part = [ ]
+	Sorting left part...
+	Left part sorted. 
+	time: 0.000000 seconds
+Right part = [ ]
+	Sorting right part...
+
+Right part sorted. 
+	time: 0.000002 seconds
+Merge started...
+		Left part = [97 ]
+		Right part = [325 ]
+		Merged Parts = [97 ]
+Merge finished. 
+	time: 0.000005 seconds
+	Left part sorted. 
+	time: 0.000067 seconds
+Right part = [ ]
+	Sorting right part...
+
+Right part sorted. 
+	time: 0.000000 seconds
+Merge started...
+		Left part = [97 325 ]
+		Right part = [356 ]
+		Merged Parts = [97 325 ]
+Merge finished. 
+	time: 0.000005 seconds
+	Left part sorted. 
+	time: 0.000101 seconds
+Right part = [165  ]
+	Sorting right part...
+Mid = 3
+Left part = [ ]
+	Sorting left part...
+	Left part sorted. 
+	time: 0.000000 seconds
+Right part = [ ]
+	Sorting right part...
+
+Right part sorted. 
+	time: 0.000000 seconds
+Merge started...
+		Left part = [165 ]
+		Right part = [210 ]
+		Merged Parts = [165 ]
+Merge finished. 
+	time: 0.000005 seconds
+
+Right part sorted. 
+	time: 0.000031 seconds
+Merge started...
+		Left part = [97 325 356 ]
+		Right part = [165 210 ]
+		Merged Parts = [97 165 210 325 ]
+Merge finished. 
+	time: 0.000006 seconds
+	Left part sorted. 
+	time: 0.000176 seconds
+Right part = [170 77 95 8  ]
+	Sorting right part...
+Mid = 7
+Left part = [170 77  ]
+	Sorting left part...
+Mid = 6
+Left part = [170  ]
+	Sorting left part...
+Mid = 5
+Left part = [ ]
+	Sorting left part...
+	Left part sorted. 
+	time: 0.000002 seconds
+Right part = [ ]
+	Sorting right part...
+
+Right part sorted. 
+	time: 0.000001 seconds
+Merge started...
+		Left part = [170 ]
+		Right part = [77 ]
+		Merged Parts = [77 ]
+Merge finished. 
+	time: 0.000007 seconds
+	Left part sorted. 
+	time: 0.000052 seconds
+Right part = [ ]
+	Sorting right part...
+
+Right part sorted. 
+	time: 0.000002 seconds
+Merge started...
+		Left part = [77 170 ]
+		Right part = [95 ]
+		Merged Parts = [77 95 ]
+Merge finished. 
+	time: 0.000036 seconds
+	Left part sorted. 
+	time: 0.000119 seconds
+Right part = [8  ]
+	Sorting right part...
+Mid = 8
+Left part = [ ]
+	Sorting left part...
+	Left part sorted. 
+	time: 0.000002 seconds
+Right part = [ ]
+	Sorting right part...
+
+Right part sorted. 
+	time: 0.000001 seconds
+Merge started...
+		Left part = [8 ]
+		Right part = [90 ]
+		Merged Parts = [8 ]
+Merge finished. 
+	time: 0.000006 seconds
+
+Right part sorted. 
+	time: 0.000040 seconds
+Merge started...
+		Left part = [77 95 170 ]
+		Right part = [8 90 ]
+		Merged Parts = [8 77 90 95 ]
+Merge finished. 
+	time: 0.000005 seconds
+
+Right part sorted. 
+	time: 0.000197 seconds
+Merge started...
+		Left part = [97 165 210 325 356 ]
+		Right part = [8 77 90 95 170 ]
+		Merged Parts = [8 77 90 95 97 165 170 210 325 ]
+Merge finished. 
+	time: 0.000007 seconds
+	Left part sorted. 
+	time: 0.000411 seconds
+Right part = [272 247 199 164 228 64 300 4 86  ]
+	Sorting right part...
+Mid = 14
+Left part = [272 247 199 164  ]
+	Sorting left part...
+Mid = 12
+Left part = [272 247  ]
+	Sorting left part...
+Mid = 11
+Left part = [272  ]
+	Sorting left part...
+Mid = 10
+Left part = [ ]
+	Sorting left part...
+	Left part sorted. 
+	time: 0.000000 seconds
+Right part = [ ]
+	Sorting right part...
+
+Right part sorted. 
+	time: 0.000002 seconds
+Merge started...
+		Left part = [272 ]
+		Right part = [247 ]
+		Merged Parts = [247 ]
+Merge finished. 
+	time: 0.000006 seconds
+	Left part sorted. 
+	time: 0.000049 seconds
+Right part = [ ]
+	Sorting right part...
+
+Right part sorted. 
+	time: 0.000001 seconds
+Merge started...
+		Left part = [247 272 ]
+		Right part = [199 ]
+		Merged Parts = [199 247 ]
+Merge finished. 
+	time: 0.000020 seconds
+	Left part sorted. 
+	time: 0.000114 seconds
+Right part = [164  ]
+	Sorting right part...
+Mid = 13
+Left part = [ ]
+	Sorting left part...
+	Left part sorted. 
+	time: 0.000001 seconds
+Right part = [ ]
+	Sorting right part...
+
+Right part sorted. 
+	time: 0.000001 seconds
+Merge started...
+		Left part = [164 ]
+		Right part = [228 ]
+		Merged Parts = [164 ]
+Merge finished. 
+	time: 0.000005 seconds
+
+Right part sorted. 
+	time: 0.000031 seconds
+Merge started...
+		Left part = [199 247 272 ]
+		Right part = [164 228 ]
+		Merged Parts = [164 199 228 247 ]
+Merge finished. 
+	time: 0.000006 seconds
+	Left part sorted. 
+	time: 0.000176 seconds
+Right part = [64 300 4 86  ]
+	Sorting right part...
+Mid = 17
+Left part = [64 300  ]
+	Sorting left part...
+Mid = 16
+Left part = [64  ]
+	Sorting left part...
+Mid = 15
+Left part = [ ]
+	Sorting left part...
+	Left part sorted. 
+	time: 0.000001 seconds
+Right part = [ ]
+	Sorting right part...
+
+Right part sorted. 
+	time: 0.000002 seconds
+Merge started...
+		Left part = [64 ]
+		Right part = [300 ]
+		Merged Parts = [64 ]
+Merge finished. 
+	time: 0.000007 seconds
+	Left part sorted. 
+	time: 0.000050 seconds
+Right part = [ ]
+	Sorting right part...
+
+Right part sorted. 
+	time: 0.000001 seconds
+Merge started...
+		Left part = [64 300 ]
+		Right part = [4 ]
+		Merged Parts = [4 64 ]
+Merge finished. 
+	time: 0.000007 seconds
+	Left part sorted. 
+	time: 0.000090 seconds
+Right part = [86  ]
+	Sorting right part...
+Mid = 18
+Left part = [ ]
+	Sorting left part...
+	Left part sorted. 
+	time: 0.000002 seconds
+Right part = [ ]
+	Sorting right part...
+
+Right part sorted. 
+	time: 0.000002 seconds
+Merge started...
+		Left part = [86 ]
+		Right part = [180 ]
+		Merged Parts = [86 ]
+Merge finished. 
+	time: 0.000006 seconds
+
+Right part sorted. 
+	time: 0.000041 seconds
+Merge started...
+		Left part = [4 64 300 ]
+		Right part = [86 180 ]
+		Merged Parts = [4 64 86 180 ]
+Merge finished. 
+	time: 0.000008 seconds
+
+Right part sorted. 
+	time: 0.000174 seconds
+Merge started...
+		Left part = [164 199 228 247 272 ]
+		Right part = [4 64 86 180 300 ]
+		Merged Parts = [4 64 86 164 180 199 228 247 272 ]
+Merge finished. 
+	time: 0.000010 seconds
+
+Right part sorted. 
+	time: 0.000396 seconds
+Merge started...
+		Left part = [8 77 90 95 97 165 170 210 325 356 ]
+		Right part = [4 64 86 164 180 199 228 247 272 300 ]
+		Merged Parts = [4 8 64 77 86 90 95 97 164 165 170 180 199 210 228 247 272 300 325 ]
+Merge finished. 
+	time: 0.000014 seconds
+
+MergeSort finished.
+
+Result:
+	[4 8 64 77 86 90 95 97 164 165 170 180 199 210 228 247 272 300 325 ]
+Time taken: 0.000874 seconds

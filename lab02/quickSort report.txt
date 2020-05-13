@@ -1,0 +1,100 @@
+$ ./quickSort 
+Enter size of array:
+20
+Generatind 20 random numbers...
+
+Generated array: 
+	[349 254 115 301 397 386 367 128 61 16 254 141 101 382 113 32 97 248 68 ]
+
+QuickSort started
+
+Pivot = 4
+Left part = [61 16 32  ]
+	Sorting left part...
+Pivot = 3
+Left part = [61 16  ]
+	Sorting left part...
+Pivot = 1
+Left part = [ ]
+	Sorting left part...
+	Time taken for left part: 0.000000 seconds
+Right part = [ ]
+	Sorting right part...
+	Time taken for right part: 0.000002 seconds
+	Time taken for left part: 0.000037 seconds
+Right part = [ ]
+	Sorting right part...
+	Time taken for right part: 0.000000 seconds
+	Time taken for left part: 0.000053 seconds
+Right part = [386 367 128 61 16 254 141 101 382 113 32 97 248 68  ]
+	Sorting right part...
+Pivot = 19
+Left part = [386 367 128 61 16 254 141 101 382 113 32 97 248  ]
+	Sorting left part...
+Pivot = 8
+Left part = [61 16  ]
+	Sorting left part...
+Pivot = 6
+Left part = [ ]
+	Sorting left part...
+	Time taken for left part: 0.000000 seconds
+Right part = [ ]
+	Sorting right part...
+	Time taken for right part: 0.000001 seconds
+	Time taken for left part: 0.000015 seconds
+Right part = [16 254 141 101 382 113 32 97 248  ]
+	Sorting right part...
+Pivot = 11
+Left part = [16  ]
+	Sorting left part...
+Pivot = 10
+Left part = [ ]
+	Sorting left part...
+	Time taken for left part: 0.000002 seconds
+Right part = [ ]
+	Sorting right part...
+	Time taken for right part: 0.000002 seconds
+	Time taken for left part: 0.000037 seconds
+Right part = [101 382 113 32 97 248  ]
+	Sorting right part...
+Pivot = 16
+Left part = [101 113 32  ]
+	Sorting left part...
+Pivot = 13
+Left part = [ ]
+	Sorting left part...
+	Time taken for left part: 0.000002 seconds
+Right part = [32  ]
+	Sorting right part...
+Pivot = 15
+Left part = [ ]
+	Sorting left part...
+	Time taken for left part: 0.000000 seconds
+Right part = [ ]
+	Sorting right part...
+	Time taken for right part: 0.000000 seconds
+	Time taken for right part: 0.000016 seconds
+	Time taken for left part: 0.000037 seconds
+Right part = [248  ]
+	Sorting right part...
+Pivot = 17
+Left part = [ ]
+	Sorting left part...
+	Time taken for left part: 0.000001 seconds
+Right part = [ ]
+	Sorting right part...
+	Time taken for right part: 0.000001 seconds
+	Time taken for right part: 0.000016 seconds
+	Time taken for right part: 0.000072 seconds
+	Time taken for right part: 0.000129 seconds
+	Time taken for left part: 0.000161 seconds
+Right part = [ ]
+	Sorting right part...
+	Time taken for right part: 0.000002 seconds
+	Time taken for right part: 0.000179 seconds
+
+QuickSort finished
+
+Result:
+	[16 32 16 68 71 16 32 16 68 16 32 61 32 97 32 113 141 97 248 ]
+Time taken: 0.000259 seconds
